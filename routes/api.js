@@ -22,3 +22,5 @@ router.get(path:"/UpdateTaskStatus",AuthMiddleware,TaskController.UpdateTaskStat
 router.get(path:"/TaskListByStatus",AuthMiddleware,TaskController.TaskListByStatus)
 router.get(path:"/DeleteTask",AuthMiddleware,TaskController.DeleteTask)
 router.get(path:"/CountTask",AuthMiddleware,TaskController.CountTask)
+
+export default router;

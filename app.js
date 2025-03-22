@@ -1,6 +1,7 @@
 import cors from "cors";
 import express from "express";
 import { MAX_JSON_SIZE, URL_ENCODE } from "./app/config/config.js";
+import router from "./routes/api.js";
 
 const app = express();
 
@@ -18,3 +19,4 @@ app.use(Limiter);
 app.set("etag", WEB_CACHE);	//Disable Etag
 
 //Database connection
+app.use("/api",router)

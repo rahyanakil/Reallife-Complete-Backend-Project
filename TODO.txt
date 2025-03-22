@@ -1,5 +1,9 @@
 1.Project File Structure
 2. Project Package
     npm i cors express express-rate-limit helmet jsonwebtoken mongoose nodemailer nodemon
+    
 3.Route config in api.js file for all the functions in controller folder
+
 4.App.js config
+
+5. Project Run nodemon app.js
